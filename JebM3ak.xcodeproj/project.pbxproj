@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7D4804B4BE76400406F05C /* Pods_JebM3ak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1165AECD6C6815795D3970B0 /* Pods_JebM3ak.framework */; };
 		521F59741FD05EE7001B3D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F59731FD05EE7001B3D4F /* AppDelegate.swift */; };
-		521F59761FD05EE7001B3D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F59751FD05EE7001B3D4F /* ViewController.swift */; };
+		521F59761FD05EE7001B3D4F /* TheRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F59751FD05EE7001B3D4F /* TheRoot.swift */; };
 		521F59791FD05EE7001B3D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521F59771FD05EE7001B3D4F /* Main.storyboard */; };
 		521F597B1FD05EE7001B3D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521F597A1FD05EE7001B3D4F /* Assets.xcassets */; };
 		521F597E1FD05EE7001B3D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521F597C1FD05EE7001B3D4F /* LaunchScreen.storyboard */; };
+		521F59861FD0605A001B3D4F /* ListTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F59851FD0605A001B3D4F /* ListTable.swift */; };
+		52E180DF1FD08CBB00DE63BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52E180DE1FD08CBB00DE63BC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1165AECD6C6815795D3970B0 /* Pods_JebM3ak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JebM3ak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		521F59701FD05EE7001B3D4F /* JebM3ak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JebM3ak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521F59731FD05EE7001B3D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		521F59751FD05EE7001B3D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521F59751FD05EE7001B3D4F /* TheRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRoot.swift; sourceTree = "<group>"; };
 		521F59781FD05EE7001B3D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521F597A1FD05EE7001B3D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521F597D1FD05EE7001B3D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521F597F1FD05EE7001B3D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521F59851FD0605A001B3D4F /* ListTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTable.swift; sourceTree = "<group>"; };
+		52E180DE1FD08CBB00DE63BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		731C331C9E41DA6D00B449DB /* Pods-JebM3ak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JebM3ak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JebM3ak/Pods-JebM3ak.debug.xcconfig"; sourceTree = "<group>"; };
+		F25700A7846709E544FD2473 /* Pods-JebM3ak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JebM3ak.release.xcconfig"; path = "Pods/Target Support Files/Pods-JebM3ak/Pods-JebM3ak.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7D4804B4BE76400406F05C /* Pods_JebM3ak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				521F59721FD05EE7001B3D4F /* JebM3ak */,
 				521F59711FD05EE7001B3D4F /* Products */,
+				D613F7D23C247AF989302F05 /* Pods */,
+				DA6D951E4F1B98A348172049 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				521F59731FD05EE7001B3D4F /* AppDelegate.swift */,
-				521F59751FD05EE7001B3D4F /* ViewController.swift */,
+				521F59751FD05EE7001B3D4F /* TheRoot.swift */,
+				521F59851FD0605A001B3D4F /* ListTable.swift */,
 				521F59771FD05EE7001B3D4F /* Main.storyboard */,
 				521F597A1FD05EE7001B3D4F /* Assets.xcassets */,
 				521F597C1FD05EE7001B3D4F /* LaunchScreen.storyboard */,
+				52E180DE1FD08CBB00DE63BC /* GoogleService-Info.plist */,
 				521F597F1FD05EE7001B3D4F /* Info.plist */,
 			);
 			path = JebM3ak;
+			sourceTree = "<group>";
+		};
+		D613F7D23C247AF989302F05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731C331C9E41DA6D00B449DB /* Pods-JebM3ak.debug.xcconfig */,
+				F25700A7846709E544FD2473 /* Pods-JebM3ak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA6D951E4F1B98A348172049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1165AECD6C6815795D3970B0 /* Pods_JebM3ak.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521F59821FD05EE7001B3D4F /* Build configuration list for PBXNativeTarget "JebM3ak" */;
 			buildPhases = (
+				4C5C63ABCCF5A603647949E5 /* [CP] Check Pods Manifest.lock */,
 				521F596C1FD05EE7001B3D4F /* Sources */,
 				521F596D1FD05EE7001B3D4F /* Frameworks */,
 				521F596E1FD05EE7001B3D4F /* Resources */,
+				31334BD00A7DD23D42143A27 /* [CP] Embed Pods Frameworks */,
+				BC8CA4BA5968801CDE154FAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,17 +159,67 @@
 				521F597E1FD05EE7001B3D4F /* LaunchScreen.storyboard in Resources */,
 				521F597B1FD05EE7001B3D4F /* Assets.xcassets in Resources */,
 				521F59791FD05EE7001B3D4F /* Main.storyboard in Resources */,
+				52E180DF1FD08CBB00DE63BC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31334BD00A7DD23D42143A27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JebM3ak/Pods-JebM3ak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5C63ABCCF5A603647949E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8CA4BA5968801CDE154FAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JebM3ak/Pods-JebM3ak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		521F596C1FD05EE7001B3D4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521F59761FD05EE7001B3D4F /* ViewController.swift in Sources */,
+				521F59861FD0605A001B3D4F /* ListTable.swift in Sources */,
+				521F59761FD05EE7001B3D4F /* TheRoot.swift in Sources */,
 				521F59741FD05EE7001B3D4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +355,7 @@
 		};
 		521F59831FD05EE7001B3D4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731C331C9E41DA6D00B449DB /* Pods-JebM3ak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +370,7 @@
 		};
 		521F59841FD05EE7001B3D4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25700A7846709E544FD2473 /* Pods-JebM3ak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
